@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="146dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="394dp"
+        android:gravity="center"
+        android:text="Meeting Schedule"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/A1"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="334dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Sunday (10-5)"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/A2"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="286dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Monday (10-8)"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/A3"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="244dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Tuesday (12-8)"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/A4"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="197dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Wednesday (8-8)"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/A5"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="145dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Thursday (9-12)"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+
+</RelativeLayout>

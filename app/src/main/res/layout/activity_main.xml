@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/action_back"
+    android:title="Back"
+    android:showAsAction="always">
+
+    <Button
+        android:id="@+id/externalGardensBtn"
+        android:layout_width="243dp"
+        android:layout_height="101dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#AD232120"
+        android:text="External Gardens"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/livingRoomBtn"
+        android:layout_width="243dp"
+        android:layout_height="101dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="320dp"
+        android:backgroundTint="#AD232120"
+        android:text="Living Room"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/companyNameTextView"
+        android:layout_width="156dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="417dp"
+        android:text="Havenly"
+        android:textColor="#7C0924"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/companydesTextView"
+        android:layout_width="278dp"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="393dp"
+        android:background="#22423B3B"
+        android:text=" Bring your dream home to life with one-on-one design help and hand-picked products tailored to your style, space, and budget."
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="357dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="280dp"
+        android:src="@drawable/p1" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="142dp"
+        android:src="@drawable/p2" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Booking"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/M1"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Meeting"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+
+</RelativeLayout>
